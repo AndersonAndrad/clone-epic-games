@@ -9,7 +9,7 @@ export default function SideMenu() {
     const logo = 'https://www.pngfind.com/pngs/m/310-3102410_epic-games-logo-png-sign-transparent-png.png'
 
     return (
-        <Flex direction='column' bg="tomato" height='100%'>
+        <Flex direction='column'  height='10%'>
             <Box>
                 <Image src={logo} width={38} height={38}/>
             </Box>
@@ -20,11 +20,11 @@ export default function SideMenu() {
                 </Flex>
                 <Flex align='center' gap='8' padding='10'>
                     <AiFillAppstore/>
-                    <Text>Store</Text>
+                    <Text>Library</Text>
                 </Flex>
                 <Flex align='center' gap='8' padding='10'>
                     <SiUnrealengine/>
-                    <Text>Store</Text>
+                    <Text>Unreal Engine</Text>
                 </Flex>
             </Flex>
             <Flex>
