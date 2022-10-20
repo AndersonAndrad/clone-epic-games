@@ -1,8 +1,19 @@
-import {Flex} from "@chakra-ui/react";
+import {Flex, Image, Text} from "@chakra-ui/react";
 
 export default function GameToList() {
-    return (
-        <Flex>
+    const mockImage = 'https://i.ytimg.com/vi/djmHcNBe1Z4/maxresdefault.jpg'
 
-        </Flex>)
+    return (
+        <Flex
+            gap={'20px'}
+            align={'center'}
+            padding={'20px'}
+            borderRadius={'15px'}
+            maxW={'300px'}
+            fontWeight={'bold'}
+        >
+            <Image src={mockImage} w={'65px'} h={'90px'} borderRadius={'10px'}/>
+            <Text>Some game what do you want to play</Text>
+        </Flex>
+    )
 }
