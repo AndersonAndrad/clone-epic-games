@@ -7,12 +7,26 @@ export default function CurrentGame() {
     return (
         <Flex
             backgroundImage={mockImage}
-            width={'100%'}
+            width={'53%'}
             minHeight={'700px'}
             borderRadius={'15px'}
             padding={'50px'}
+            justify={'flex-end'}
+            direction={'column'}
+            gap={'20px'}
         >
-            <Flex marginTop={'auto'} fontWeight={'bold'} direction='column' gap={'10px'}>
+
+            <Flex direction={'column'} gap={'20px'} width={'300px'} fontWeight={'bold'}>
+                <Text>Out now</Text>
+                <Flex direction={'column'} >
+                    <Text>Play with up to four friends or solo.</Text>
+                    <Text>
+                        The choices is yours in the asymmentrical Ghostbusters games from Fonic.
+                    </Text>
+                </Flex>
+            </Flex>
+
+            <Flex fontWeight={'bold'} direction='column' gap={'10px'}>
                 <Text>Starting at R$169,00</Text>
                 <Flex align={'center'} gap={'10px'}>
                     <Button color={'#202020'} textTransform={'uppercase'}>Buy now</Button>
