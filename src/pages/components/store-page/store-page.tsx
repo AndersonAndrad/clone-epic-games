@@ -1,13 +1,13 @@
-import {Box, Flex} from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import Header from "../header/header";
-import WeekGames from "../week-games/week-games";
-import Spotilight from "../spotlight/spotlight";
+import ListPages from './../list-games/list-games';
 
 export default function StorePage() {
     return (
         <Flex width='100%' direction='column'>
-            <Header/>
-            <Spotilight/>
+            <Header />
+            {/* <Spotilight/> */}
+            <ListPages />
         </Flex>
     )
 }
